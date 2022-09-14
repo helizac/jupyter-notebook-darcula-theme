@@ -278,3 +278,5 @@ For **Hinterland**, go down and change regexp settings.
 ![](8.png)
 
 It's done. Now you're good to go.
+
+![](9.png)
