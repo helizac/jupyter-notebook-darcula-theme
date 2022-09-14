@@ -6,7 +6,7 @@ Implementation of Pycharm Darcula Theme and extensions for Jupyter Notebook.
 
 Open the cmd enviroment that you use and type **pip install jupyterthemes**
 
-![[1.png]]
+![[https://github.com/helizac/jupyter-notebook-darcula-theme/blob/main/1.png]]
 
 ### 2. Placing the style file
 
