@@ -6,13 +6,13 @@ Implementation of Pycharm Darcula Theme and extensions for Jupyter Notebook.
 
 Open the cmd enviroment that you use and type **pip install jupyterthemes**
 
-![[]](1.png)
+![](1.png)
 
 ### 2. Placing the style file
 
 Go to **C:/Users/[user]/anaconda3/Lib/site-packages/jupyterthemes/styles** and create a file named **darcula.less** in this folder.
 
-![[2.png]]
+![](2.png)
 
 Then add style codes below to **darcula.less** file.
 
@@ -212,7 +212,7 @@ Then add style codes below to **darcula.less** file.
 
 2. Open **C:/Users/[user]/anaconda3/Lib/site-packages/jupyterthemes/layout/notebook.less**
 
-![[3.png]]
+![](3.png)
 
 - Then remove this part from the file.
 
@@ -234,13 +234,13 @@ span.checkpoint_status, span.autosave_status {
 
 Open console and type **jt -t darcula -T -N -kl -fs 11 -tfs 13 -f fira -fs 10 -nf ptsans -nfs 11 -N -cursw 2 -cursc r -cellw 80%**
 
-![[4.png]]
+![](4.png)
 
 ### 5. Setting Extensions
 
 Now pip install **pip install jupyter_contrib_nbextensions** for extension tool.
 
-![[5.png]]
+![](5.png)
 
 Then and open jupyter notebook.
 
@@ -260,15 +260,14 @@ Under the Configurable nbextensions enable extensions below.
 - Nbextensions edit menu item
 - pydeck/extension
 
-![[6.png]]
-
+![](6.png)
 
 For **Highlight selected word**, go down and change the colors to gray.
 
 RGB(60, 60, 60) for "Color used to highlight matching words in the focussed cell"
 RGB(50, 50, 50) for "Color used to highlight matching words in blurred (non-active) cells"
 
-![[7.png]]
+![](7.png)
 
 For **Hinterland**, go down and change regexp settings.
 
@@ -276,7 +275,6 @@ For **Hinterland**, go down and change regexp settings.
 
 [\(%A-Za-z._/\\~-] for "include_regexp"
 
-![[8.png]]
-
+![](8.png)
 
 It's done. Now you're good to go.
